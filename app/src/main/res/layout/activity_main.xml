@@ -9,11 +9,14 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+    <!--  안드로이드는 밀도 단위를 쓰기 때문에 px이 아닌 dp  -->
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
     <TextView
