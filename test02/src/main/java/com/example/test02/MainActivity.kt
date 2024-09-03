@@ -1,9 +1,8 @@
-package com.example.firsttest01
+package com.example.test02
 
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
-import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 
@@ -12,11 +11,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-        var txtName = findViewById<TextView>(R.id.txtName)
-        var btnName = findViewById<Button>(R.id.btnName)
 
-        btnName.setOnClickListener(View.OnClickListener {
-            txtName.text="mirim"
-        })
+        var btn03 = findViewById<Button>(R.id.btn03)
+
+        btn03.setOnClickListener{
+            btn03.visibility = View.INVISIBLE
+        }
     }
 }

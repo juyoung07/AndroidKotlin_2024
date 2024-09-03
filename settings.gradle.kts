@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "My Application"
 include(":app")
-include(":firsttest01")
+include(":test01")
+include(":test02")
