@@ -41,11 +41,13 @@
     </LinearLayout>
 
     <TextView
+        android:gravity="center"
+        android:layout_margin="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Hello World"
         android:textColor="#010101"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold|italic" />
 
 </LinearLayout>
