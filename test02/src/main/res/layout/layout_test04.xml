@@ -13,6 +13,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/chk"
         android:layout_marginLeft="10dp"
         android:text="시작함"
         android:textSize="20dp" />
@@ -22,40 +23,52 @@
         android:text="좋아하는 동물은?"
         android:textSize="25dp" />
 
-    <RadioGroup
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="고양이"
-            android:textSize="20dp" />
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="강아지"
-            android:textSize="20dp" />
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="토끼"
-            android:textSize="20dp" />
-    </RadioGroup>
-
-    <Button
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="선택 완료"
-        android:textSize="20dp" />
+        android:id="@+id/linear"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="고양이"
+                android:id="@+id/rdoCat"
+                android:textSize="20dp" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="강아지"
+                android:id="@+id/rdoDog"
+                android:textSize="20dp" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="토끼"
+                android:id="rdoRabbit"
+                android:textSize="20dp" />
+        </RadioGroup>
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:maxWidth="300dp"
-        android:maxHeight="150dp"
-        android:adjustViewBounds="true"
-        android:src="@drawable/mycat2" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="선택 완료"
+            android:textSize="20dp"
+            android:id="btn"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:maxWidth="300dp"
+            android:maxHeight="150dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/mycat2"
+            android:id="@+id/imgPet"/>
+    </LinearLayout>
 
 
 

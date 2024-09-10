@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.layout_test03)
+        setContentView(R.layout.layout_test04)
 
         var edName = findViewById<EditText>(R.id.etName)
         var edAge = findViewById<EditText>(R.id.etAge)
