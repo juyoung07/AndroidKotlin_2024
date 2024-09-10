@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="10dp">
+    android:layout_margin="20dp">
 
     <TextView
         android:layout_width="match_parent"
@@ -31,7 +31,8 @@
         android:visibility="invisible" >
         <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:id="@+id/rg">
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -48,7 +49,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="토끼"
-                android:id="rdoRabbit"
+                android:id="@+id/rdoRabbit"
                 android:textSize="20dp" />
         </RadioGroup>
 
@@ -57,7 +58,7 @@
             android:layout_height="wrap_content"
             android:text="선택 완료"
             android:textSize="20dp"
-            android:id="btn"/>
+            android:id="@+id/btn"/>
 
         <ImageView
             android:layout_width="wrap_content"
@@ -66,7 +67,6 @@
             android:maxWidth="300dp"
             android:maxHeight="150dp"
             android:adjustViewBounds="true"
-            android:src="@drawable/mycat2"
             android:id="@+id/imgPet"/>
     </LinearLayout>
 
