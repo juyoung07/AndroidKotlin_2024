@@ -23,3 +23,5 @@ rootProject.name = "My Application"
 include(":app")
 include(":test01")
 include(":test02")
+include(":test03")
+include(":ch07_layout")
