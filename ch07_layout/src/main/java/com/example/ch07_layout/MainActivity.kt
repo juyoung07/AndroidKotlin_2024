@@ -10,6 +10,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         binding.btn1.setOnClickListener {
             binding.tv1.visibility = View.VISIBLE;
@@ -26,8 +28,7 @@ class MainActivity : AppCompatActivity() {
             binding.tv1.visibility = View.INVISIBLE;
             binding.tv2.visibility= View.INVISIBLE;
         }
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+
     }
 
 }
