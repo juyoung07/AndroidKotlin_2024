@@ -36,6 +36,7 @@
             android:inputType="phone"/>
     </TableRow>
     <Button
+        android:id="@+id/btn"
         android:text="확인하기"/>
 
 
