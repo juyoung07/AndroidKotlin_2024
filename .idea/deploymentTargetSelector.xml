@@ -13,6 +13,14 @@
       </SelectionState>
       <SelectionState runConfigName="ch07_layout">
         <option name="selectionMode" value="DROPDOWN" />
+        <DropdownSelection timestamp="2024-10-22T10:45:35.668095Z">
+          <Target type="DEFAULT_BOOT">
+            <handle>
+              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\yunju\.android\avd\U_Pixel_2_.avd" />
+            </handle>
+          </Target>
+        </DropdownSelection>
+        <DialogSelection />
       </SelectionState>
       <SelectionState runConfigName="test04">
         <option name="selectionMode" value="DROPDOWN" />
@@ -26,6 +34,12 @@
         <DialogSelection />
       </SelectionState>
       <SelectionState runConfigName="tabletest01">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="My Application.My_Application.test01">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="and_cal_table">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
